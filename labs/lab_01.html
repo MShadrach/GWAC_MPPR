@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1 - Git Tutorials</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="animation-fade-in">
+    <!-- Sidebar Menu -->
+    <div id="menu">
+        <p class="link-home">
+            <a href="../index.html" style="color: #fff;">Git Tutorials</a>
+        </p>
+        <nav>
+            <ol>
+                <li><a href="lab_00.html">Introduction</a></li>
+                <li><a href="lab_01.html" class="active">Setup</a></li>
+                <li><a href="lab_02.html">Create a Project</a></li>
+                <li><a href="lab_03.html">Collaboration</a></li>
+                <li><a href="lab_04.html">Merge Conflicts</a></li>
+                <li><a href="lab_05.html">Git Commands Cheat Sheet</a></li>
+                <!-- Add other lab links here -->
+                <li><a href="lab_10.html">Thank You</a></li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="content">
+        <h1 class="lab_title"><em>Lab 1: </em> Setup</h1>
+        
+        <h2>1. Goals</h2>
+        <ul>
+            <li>To set up Git and get it ready for work.</li>
+        </ul>
+
+        <h2>2. Install Git</h2>
+        <p>Before proceeding, ensure that you have Git installed. If you haven't installed it yet, please follow the instructions below based on your operating system:</p>
+        <h3>For Windows:</h3>
+        <ol>
+            <li>Download the installer from <a href="https://git-scm.com/download/win">Git for Windows</a>.</li>
+            <li>Run the installer and follow the prompts.</li>
+            <li>During installation, you can choose default options, or customize as needed (for most users, the default settings will work fine).</li>
+        </ol>
+        <h3>For macOS:</h3>
+        <ol>
+            <li>Download the installer from <a href="https://git-scm.com/download/mac">Git for macOS</a>.</li>
+            <li>Run the installer package and follow the instructions.</li>
+        </ol>
+        <h3>For Linux:</h3>
+        <p>You can usually install Git using your package manager. For example:</p>
+        <pre>sudo apt-get install git  # For Debian/Ubuntu</pre>
+        <pre>sudo yum install git      # For Fedora</pre>
+
+        <h2>3. Setup Name and Email</h2>
+        <p>Run the following commands so that Git knows your name and email:</p>
+        <h3><b>Execute:</b></h3>
+        <div class="instructions">
+            <pre>git config --global user.name "Your Name"</pre>
+            <pre>git config --global user.email "your_email@whatever.com"</pre>
+        </div>
+
+        <h2>4. Setup Line Ending Preferences</h2>
+        <p>For Unix/Mac users:</p>
+        <h3><b>Execute:</b></h3>
+        <div class="instructions">
+            <pre>git config --global core.autocrlf input</pre>
+            <pre>git config --global core.safecrlf true</pre>
+        </div>
+        <p>For Windows users:</p>
+        <h3><b>Execute:</b></h3>
+        <div class="instructions">
+            <pre>git config --global core.autocrlf true</pre>
+            <pre>git config --global core.safecrlf true</pre>
+        </div>
+
+        <h2>5. Configure Default Text Editor</h2>
+        <p>It's also useful to set your default text editor for Git. For example, to set Visual Studio Code as your editor, run:</p>
+        <h3><b>Execute:</b></h3>
+        <div class="instructions">
+            <pre>git config --global core.editor "code --wait"</pre>
+        </div>
+        <p>If you prefer a different editor (like Vim or Nano), replace `"code --wait"` with the command for your preferred editor.</p>
+
+        <h2>6. Setup R</h2>
+        <p>You need a working R environment. If you haven’t installed it, get it from:</p>
+        <p><a href="https://cran.r-project.org/" target="_blank">R Project - CRAN</a></p>
+
+
+        <!-- Navigation between labs -->
+        <nav class="foot-navigation">
+            <a class="start" href="lab_00.html">Prev</a>
+            <a class="start" href="lab_02.html">Next</a>
+        </nav>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>This is an adaptation of GitImmersion ️️❤️  Maintained for GWAC-MPPR</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

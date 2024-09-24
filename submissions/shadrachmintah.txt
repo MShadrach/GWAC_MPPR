@@ -1,0 +1,20 @@
+Git is a widely-used version control system that allows multiple people to collaborate on a project, track changes, and manage different versions of code or files efficiently. It enables teams to work on the same project simultaneously without overwriting each other's changes, and it records a history of modifications, making it easy to review or revert to previous versions.
+
+How Git Works:
+Repository (Repo): A Git repository is a folder that contains all files and their history. It can be local (on your machine) or hosted remotely (on platforms like GitHub or GitLab).
+
+Commit: Changes to files are saved as "commits" in Git. Each commit is a snapshot of the project at a particular time, with a unique ID for tracking. You typically include a message with each commit describing what changes were made.
+
+Branches: Git allows multiple versions of a project to exist simultaneously through "branches." The default branch is usually called main or master. Other branches can be created to work on features or fixes separately without affecting the main project.
+
+Merging: Once work on a branch is complete, it can be merged back into the main branch. This combines the changes, ensuring that everything works together.
+
+Pull: Fetches updates from a remote repository to your local system, keeping your version of the project up to date.
+
+Push: Sends your local commits to a remote repository so others can see and integrate your changes.
+
+Clone: Makes a copy of an entire Git repository from a remote source onto your local machine.
+
+Pull Requests/ Merge Requests: In collaborative environments (like GitHub), pull or merge requests are used to propose changes to the main project. These requests are reviewed and discussed before merging.
+
+By using Git, teams can track every change, collaborate on the same files, and avoid the risks of losing work or overwriting someone else's progress. It’s an essential tool for software development, data science, and many other fields.
